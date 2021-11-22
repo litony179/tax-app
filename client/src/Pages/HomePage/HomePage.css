@@ -1,0 +1,8 @@
+.welcome-container {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    height: 512px;
+    width: 764px;
+    padding-left: 32px;
+}
