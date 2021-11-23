@@ -62,9 +62,9 @@ MOON CSS
 */
 
 .moon {
-    position: absolute;
-    top: 520.45px;
-    left: 179.47px;
+    position: relative;
+    top: -10%;
+    left: 30%;
     transform: translate(100%, -50%);
     width: 36.08px;
     height: 35.17px;

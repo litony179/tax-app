@@ -7,8 +7,8 @@ class HomePage extends Component {
     render() {
         return(
             <div className="welcome-container">
-                <Header></Header>
-                <Form></Form>
+                <Header className="header-component"></Header>
+                <Form className="form-compoennt"></Form>
             </div>
         )
     }

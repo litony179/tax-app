@@ -1,0 +1,25 @@
+
+.details-moon {
+    top: 15%;
+    left: 32%;
+}
+
+.details-planetoid {
+    top:230px;
+}
+
+.details-taxable-income p{
+    color: white;
+    font-weight: 700;
+    font-size: 14px;
+    padding-left: 20px;
+    margin-top: 20px;
+}
+
+.details-taxable-income-amount {
+    width: 280px;
+    height: 70px;
+    background-color: white;
+    margin-left: 20px;
+    border-radius: 5px;
+}

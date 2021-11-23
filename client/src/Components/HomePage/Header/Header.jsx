@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import HeaderText from '../HeaderText/HeaderText'
 import './Header.css';
 
 class header extends Component {
@@ -7,8 +8,7 @@ class header extends Component {
             <div className="header-container">
                 <div className="header-text-container">
                     <div className="header-text">
-                        <h1>Tax-o-tron</h1>
-                        <p>The free and simple online tax calculator.</p>
+                        <HeaderText></HeaderText>
                     </div>
                 </div>
                 <div className="planetoid"></div>
