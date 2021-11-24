@@ -1,11 +1,11 @@
 
 .details-moon {
-    top: 15%;
+    top: -60%;
     left: 32%;
 }
 
 .details-planetoid {
-    top:230px;
+    top:-100px;
 }
 
 .details-taxable-income p{
@@ -14,12 +14,70 @@
     font-size: 14px;
     padding-left: 20px;
     margin-top: 20px;
+    margin-bottom: 8px;
 }
 
 .details-taxable-income-amount {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     width: 280px;
     height: 70px;
     background-color: white;
     margin-left: 20px;
     border-radius: 5px;
+}
+
+.details-taxable-income-amount p {
+    font-size: 36px;
+    color:#8477C9;
+    font-weight: 700;
+}
+
+.tax-breakdown-title {
+    color: white;
+    margin-bottom: 8px;
+    padding-left: 21px;
+    font-weight: 700;
+}
+
+/* 
+=======================================
+TAX BRACKET CSS
+=======================================
+*/
+
+.detailed-tax-breakdown-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+
+}
+
+.tax-bracket {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 278px;
+    height: 48px;
+    background-color: white;
+    border-radius: 5px;
+    z-index: 100
+}
+
+.tax-bracket p {
+    padding-left: 14px;
+    font-weight: 400;
+    font-size: 12px;
+}
+
+.tax-bracket span {
+    width: 70px;
+    height: 22px;
+    font-size: 600;
+    color: #8477C9;
+    padding-right: 16px;
+    text-align: right;
 }
